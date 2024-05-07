@@ -1,0 +1,30 @@
+.header-content {
+  display: flex;
+  justify-content: center;
+  -webkit-box-shadow: 0 4px 6px -6px #222;
+  -moz-box-shadow: 0 4px 6px -6px #222;
+  box-shadow: 0 6px 6px -6px #222;
+  align-items: center;
+}
+
+.img {
+  margin-left: 5vh;
+  width: 150px;
+  margin-right: 20vh;
+}
+
+.content {
+  width: 100px;
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: gray;
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.login {
+  margin-left: 10vh;
+  padding-right: 10vh;
+  flex-grow: 1.5;
+}
